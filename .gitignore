@@ -1,2 +1,10 @@
 /venv
-/frontend
+/frontend-monitor/.output
+/frontend-monitor/.output
+/frontend-monitor/.idea
+/frontend-monitor/data
+/frontend-monitor/nuxt
+/frontend-monitor/nitro
+/frontend-monitor/cache
+/frontend-monitor/dist
+/frontend-monitor/node_modules
