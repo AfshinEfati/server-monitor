@@ -3,6 +3,7 @@ export default defineNuxtConfig({
         '~/assets/css/tailwind.css',
 
     ],
+    ssr: false,
     app: {
         baseURL: '/monitor/'
     },
