@@ -1,0 +1,13 @@
+
+[Unit]
+Description=Server Monitor
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/server-monitor
+ExecStart=/usr/bin/uvicorn backend.main:app --host 0.0.0.0 --port 8042
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
